@@ -8,7 +8,7 @@
 
 # print(f"Your income is {income} and you would pay {Lowtaxland_tax} income tax in Lowtaxland or {Ripoffland_tax} income tax in Ripoffland. You would save {Tax_diff} by paying taxes in Lowtaxland!")
 
-print(~32)
+printx(~32)
 
 
 aws rds describe-db-instances --query 'DBInstances[*].DBInstanceArn' --db-instance-identifier  ${dbIdentifier} --output text
